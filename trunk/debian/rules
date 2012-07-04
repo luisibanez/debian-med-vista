@@ -10,5 +10,5 @@
 
 
 get-orig-source:
-	wget -q -O../VistA-FOIA.orig.tar.gz https://github.com/OSEHRA/VistA-FOIA/tarball/master
-	wget -q -O../OSEHRA-Automated-Testing.orig.tar.gz https://github.com/OSEHRA/OSEHRA-Automated-Testing/tarball/master
+	wget -O../VistA-FOIA.orig.tar.gz https://github.com/OSEHRA/VistA-FOIA/tarball/master
+	wget -O../OSEHRA-Automated-Testing.orig.tar.gz https://github.com/OSEHRA/OSEHRA-Automated-Testing/tarball/master
