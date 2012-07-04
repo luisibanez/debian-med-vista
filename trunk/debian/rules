@@ -5,8 +5,27 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+VISTAINSTANCEDIR=debian/usr/share/vista-ehr/
+
 %:
 	dh $@
+
+
+override_dh_auto_install:
+	mkdir -p $(VISTAINSTANCEDIR)
+	mkdir -p $(VISTAINSTANCEDIR)/r
+	mkdir -p $(VISTAINSTANCEDIR)/o
+	mkdir -p $(VISTAINSTANCEDIR)/g
+	mkdir -p $(VISTAINSTANCEDIR)/inet
+	mkdir -p $(VISTAINSTANCEDIR)/inet/Logs
+	gtm_dist=/usr/lib/fis-gtm/V5.5-000_x86_64
+	gtmprofilefile=$(gtm_dist)/gtmprofile
+	source $(gtmprofilefile)
+	gtmgbldir=$(VISTAINSTANCEDIR)/g/database
+	gtmroutines="$(VISTAINSTANCEDIR)/o($(VISTAINSTANCEDIR)/r) $(gtm_dist)/libgtmutil.so"
+	echo "change -s DEFAULT -f=$(VISTAINSTANCEDIR)/g/database" | $(gtm_dist)/mumps -r GDE
+	$(gtm_dist)/mupip create
+	$(gtm_dist)/dse change -f -key_max=1023 -rec=4096
 
 
 get-orig-source:
