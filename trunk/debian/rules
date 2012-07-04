@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# debian/rules for fis-gtm
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+
+get-orig-source:
+	: # If no treeish -- standard release -- fetch using uscan,
+	: # otherwise fetch corresponding treeish from GIT
+	if [ -z '$(UVERGIT)' ]; then \
+		uscan --verbose --force-download; \
+	else \
+		wget -q -O../fis-gtm_$(UVER).orig.tar.gz https://github.com/luisibanez/fis-gtm/tarball/$(UVERGIT); \
+	fi

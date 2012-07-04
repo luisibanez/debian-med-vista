@@ -1,0 +1,6 @@
+vista-ehr (5.5-000+git109-g57f2d89-1) UNRELEASED; urgency=low
+
+  [ Luis Ibanez ]
+  * Initial attempt to package
+
+ -- Luis Ibanez <luis.ibanez@kitware.com>  Wed, 4 Jul 2012 17:16:45 -0500

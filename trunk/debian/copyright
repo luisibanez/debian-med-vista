@@ -1,0 +1,15 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Upstream-Name: vista-ehr
+Upstream-Contact: Luis Ibanez <luis.ibanez@kitware.com>
+Source: https://github.com/OSEHRA/VistA-FOIA/tarball/master
+Comment: VistA source code is now managed by OSEHRA.
+
+
+Files: *
+Copyright: Public Domand - Employees of the Department of Veterans Affairs.
+Comment:   Modifications received by OSEHRA are copyrighted by contributors.
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2012 Luis Ibanez <luis.ibanez@kitware.com>
+License: Apache-2.0

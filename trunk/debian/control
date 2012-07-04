@@ -1,0 +1,31 @@
+Source: vista-ehr
+Section: science
+Priority: extra
+Build-Depends: debhelper (>= 9),
+ fis-gtm, python, cmake (>= 2.8.5)
+Standards-Version: 3.9.3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+DM-Upload-Allowed: yes
+Uploaders: Andreas Tille <tille@debian.org>,
+           Thorsten Alteholz <debian@alteholz.de>,
+           Luis Ibanez <luis.ibanez@kitware.com>
+Homepage: http://www.osehra.org
+Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/fis-gtm/trunk
+Vcs-Svn: svn://svn.debian.org/debian-med/trunk/packages/fis-gtm/trunk
+
+Package: vista-ehr
+Architecture: amd64 i386
+Depends: fis-gtm, cmake (>= 2.8.5)
+Provides: vista-ehr
+Description: package for VistA EHR
+ VistA: the Veterans Health Information Systems and Technology Architecture.
+ This is an integrated health information system that was developed by
+ employees of the US Department of Veterans Affairs (VA). Therefore, the
+ large majority of the source code in VistA is in the Public Domain.
+ In 2011, the VA set up an Open Source custodial organization (OSEHRA)
+ to develop an open source environment for VistA. OSEHRA adopted the
+ Apache 2.0 License for all subsequent contributions to be integrated
+ with the VisA code base.
+ .
+ VistA is implemented in M/MUMPS, and on Linux depends on the GT.M
+ compiler and database being available.
