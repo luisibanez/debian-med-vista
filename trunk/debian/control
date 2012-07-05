@@ -1,4 +1,4 @@
-Source: vista-ehr
+Source: VistA-FOIA
 Section: science
 Priority: extra
 Build-Depends: debhelper (>= 9),
@@ -13,10 +13,10 @@ Homepage: http://www.osehra.org
 Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/fis-gtm/trunk
 Vcs-Svn: svn://svn.debian.org/debian-med/trunk/packages/fis-gtm/trunk
 
-Package: vista-ehr
+Package: VistA-FOIA
 Architecture: amd64 i386
 Depends: fis-gtm, cmake (>= 2.8.5)
-Provides: vista-ehr
+Provides: VistA-FOIA
 Description: package for VistA EHR
  VistA: the Veterans Health Information Systems and Technology Architecture.
  This is an integrated health information system that was developed by

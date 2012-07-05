@@ -1,6 +1,7 @@
-vista-ehr (5.5-000+git109-g57f2d89-1) UNRELEASED; urgency=low
+VistA-FOIA (5.5-000+git109-g57f2d89-1) UNRELEASED; urgency=low
 
   [ Luis Ibanez ]
   * Initial attempt to package
+  * Renamed the package as VistA-FOIA to have consistent naming with tar files.
 
  -- Luis Ibanez <luis.ibanez@kitware.com>  Wed, 4 Jul 2012 17:16:45 -0500

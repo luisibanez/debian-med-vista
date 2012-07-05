@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
-Upstream-Name: vista-ehr
+Upstream-Name: VistA-FOIA
 Upstream-Contact: Luis Ibanez <luis.ibanez@kitware.com>
 Source: https://github.com/OSEHRA/VistA-FOIA/tarball/master
 Comment: VistA source code is now managed by OSEHRA.
