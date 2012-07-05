@@ -29,5 +29,6 @@ override_dh_auto_install:
 
 
 get-orig-source:
-	wget -O../VistA-FOIA.orig.tar.gz https://github.com/OSEHRA/VistA-FOIA/tarball/master
-	wget -O../OSEHRA-Automated-Testing.orig.tar.gz https://github.com/OSEHRA/OSEHRA-Automated-Testing/tarball/master
+	wget -O../OSEHRA-VistA-FOIA-d7fb400.orig.tar.gz https://github.com/OSEHRA/VistA-FOIA/tarball/master
+	wget -O../OSEHRA-OSEHRA-Automated-Testing-1bc4122.orig.tar.gz https://github.com/OSEHRA/OSEHRA-Automated-Testing/tarball/master
+
