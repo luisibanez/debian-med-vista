@@ -1,12 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
 Upstream-Name: VistA-FOIA
 Upstream-Contact: Luis Ibanez <luis.ibanez@kitware.com>
-Source: https://github.com/OSEHRA/VistA-FOIA/tarball/master
+Source: https://github.com/OSEHRA/VistA/tarball/b34e6b28
 Comment: VistA source code is now managed by OSEHRA.
 
 
 Files: *
-Copyright: Public Domand - Employees of the Department of Veterans Affairs.
+Copyright: Public Domain - Employees of the Department of Veterans Affairs.
 Comment:   Modifications received by OSEHRA are copyrighted by contributors.
 License: Apache-2.0
 

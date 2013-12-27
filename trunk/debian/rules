@@ -40,6 +40,6 @@ override_dh_auto_install:
 
 
 get-orig-source:
-	wget -O../OSEHRA-VistA-FOIA-d7fb400.orig.tar.gz https://github.com/OSEHRA/VistA-FOIA/tarball/master
-	wget -O../OSEHRA-OSEHRA-Automated-Testing-1bc4122.orig.tar.gz https://github.com/OSEHRA/OSEHRA-Automated-Testing/tarball/master
+	wget -O../OSEHRA-VistA-M-897bff2a.orig.tar.gz https://github.com/OSEHRA/VistA-M/tarball/897bff2a
+	wget -O../OSEHRA-VistA-b34e6b28.orig.tar.gz https://github.com/OSEHRA/VistA/tarball/b34e6b28
 
